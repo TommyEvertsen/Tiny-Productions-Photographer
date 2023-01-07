@@ -341,6 +341,10 @@ Margin-top */
 color: blue;
 }
 
+.descreet{
+  font-size: 80%;
+  color: darkgrey;
+}
 
 /* Contact */
 .social-icon2{
@@ -355,23 +359,40 @@ color: blue;
 
 #contactMe{
   text-align: center;
-  padding: 5%
+  padding: 5%;
+  margin-bottom: 3%;
+ 
 }
 
 #contactInfo{
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
+  
 }
 
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
+  .article{
+    height: 290px;
+  }
   .article2{
-    margin-bottom: 8%;
+    margin-bottom: 10%;
   }
 
   .mobile-smaller-text{
     font-size: 190%;
+  }
+  
+  #contactMe{
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 20%;
+  }
+  
+  #contactInfo{
+    text-align: center;
+    margin-bottom: 20%;
   }
   
  

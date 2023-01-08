@@ -137,16 +137,10 @@ border-width: 0px 0.2em 0px 0; /* top right bottom left */
 border-style: dotted;
 }
   
-/* .navbar ul{
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
- */
 
+ #about{
+  height: 350px;
+ }
 
 .comingSoon{
   padding: 15%;
@@ -284,6 +278,10 @@ background-image:
 /* text-align-center */
 .text-align{
   text-align: center;
+}
+
+.text-align-justidy{
+  text-align: justify;
 }
 
 
